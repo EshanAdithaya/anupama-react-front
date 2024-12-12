@@ -22,7 +22,7 @@ const ControlPanel = ({ onStart, onStop }) => {
 
   return (
     <div>
-      <button onClick={handleStart}>Start</button>
+      <button onClick={handleStart} id="start-button">Start</button>
       <button onClick={handleStop}>Stop</button>
     </div>
   );
